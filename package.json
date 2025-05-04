@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests --runInBand --no-cache"
+    "test": "jest",
+    "test:staged": "jest"
   },
   "keywords": [],
   "author": "",
@@ -59,6 +60,7 @@
     "mongodb": "^4.17.2",
     "nodemon": "^2.0.22",
     "swagger-ui-express": "^4.6.3",
+    "uninstall": "^0.0.0",
     "validator": "^13.15.0"
   }
 }
